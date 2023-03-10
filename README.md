@@ -28,7 +28,7 @@ Run
 
         python transcript_automation.py PATH_TO_FOLDER_WITH_MP3s
 
-For every mp3 file you'll get a text file with audio transcription in the same folder where audio is. Text file will be name as the audio file.
+For every mp3 file you'll get a text file with audio transcription in the same folder where audio is. Text file will be named as the audio file.
 
 ## If you want to run it with Streamlit (Work In Progress)
 
