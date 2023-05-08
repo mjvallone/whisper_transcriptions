@@ -34,7 +34,8 @@ def get_download_path():
 def save_text_as_file(text, audio_filename):
     default_dir = get_download_path()
     save_location = os.path.join(default_dir, audio_filename.replace(".mp3", ".txt"))
-    st.write(f"save_location: {save_location}")
+    save_location_label = f"Text will be saved to: {save_location}" if language == "English" else f"El texto será guardado en: {save_location}"
+    st.write(save_location_label)
 
     def save_file():
         location_label = "Saving text to" if language == "English" else "Guardando texto en"
