@@ -1,6 +1,12 @@
 # Whisper transcriptions
 The main idea here is to create a tool to transcript audios to text by using Whisper (speech to text from OpenAI)
 
+For a quick test enter to https://whisper-transcriptions.streamlit.app/ and give it a try
+
+
+
+If you want to be able to change it or run it locally, then read the following steps
+
 ## It doesn't matter how you are going to transcript, first you should do this
 
 1. You should install python3.8 :)
