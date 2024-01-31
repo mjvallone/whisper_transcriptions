@@ -42,7 +42,7 @@ def save_text_as_file(audio_filename, lang_data):
 
 
 def main():
-    selected_language = st.selectbox("Select Language", ["English", "Spanish"], index=1)
+    selected_language = st.selectbox("Seleccionar idioma", ["English", "Spanish"], index=1)
     lang_data = languages[selected_language]
 
     st.title(lang_data["title"])
