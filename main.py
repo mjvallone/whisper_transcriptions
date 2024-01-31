@@ -2,8 +2,11 @@ import streamlit as st
 from tempfile import NamedTemporaryFile
 import whisper
 
+@st.cache_resource(show_spinner=False)
+def load_model():
+    return whisper.load_model("base")
 
-model = whisper.load_model("base")
+model = load_model()
 languages = {
     "English": {
         "download_label": "The file *{file_name}* will be downloaded",
